@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/medenv-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/medenv-{{ version }}.tar.gz
   sha256: ac5f29f4bd80be00625ece87eea02ac0a8f6208406df3ff51419ebf883e485c9
 
 build:
