@@ -28,13 +28,13 @@ requirements:
     - copernicusmarine >=2.0.1
 
 test:
-  imports:
-    - medenv
-  commands:
-    - pip check
-  requires:
-    - python {{ python_min }}
-    - pip
+  - python:
+      imports:
+        - medenv
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+      pip_check: true
 
 about:
   home: https://github.com/jeremyfix/medenv
