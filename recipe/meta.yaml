@@ -38,8 +38,7 @@ test:
     - pip
 
 about:
-  homepage: https://github.com/jeremyfix/medenv
-  repository: https://github.com/jeremyfix/medenv
+  home: https://github.com/jeremyfix/medenv
   summary: "Python package to get environmental data from CMEMS, etopo, woa."
   license: GPL-3.0-or-later
   license_file: LICENSE
