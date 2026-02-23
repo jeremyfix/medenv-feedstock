@@ -9,6 +9,8 @@ Package license: GPL-3.0-or-later
 
 Summary: Python package to get environmental data from CMEMS, etopo, woa.
 
+Development: https://github.com/jeremyfix/medenv
+
 Current build status
 ====================
 
